@@ -1,0 +1,396 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 7.0.1.2 (Linux)"/>
+	<meta name="author" content="Itchy"/>
+	<meta name="created" content="2020-10-04T07:37:09"/>
+	<meta name="changedby" content="Itchy"/>
+	<meta name="changed" content="2020-11-01T20:55:46"/>
+	<meta name="AppVersion" content="16.0300"/>
+	<meta name="DocSecurity" content="0"/>
+	<meta name="HyperlinksChanged" content="false"/>
+	<meta name="LinksUpToDate" content="false"/>
+	<meta name="ScaleCrop" content="false"/>
+	<meta name="ShareDoc" content="false"/>
+
+	<script src="jquery-3.5.1.js"></script>
+	
+
+	<style type="text/css">
+		body,div,table,thead,tbody,tfoot,tr,th,td,p { font-family:"Calibri"; font-size:x-small }
+		a.comment-indicator:hover + comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em;  }
+		a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em;  }
+		comment { display:none;  }
+		#popup1,#popup2,#popup3,#popup4,#popup5 {
+			position:absolute;
+			visibility: hidden;
+			
+			color: black;
+			top:50%;
+			left:50%;
+			width:1000px;  /* adjust as per your needs */
+			height:500px;   /* adjust as per your needs */
+			margin-left:-500px;   /* negative half of width above */
+			margin-top:-250px;   /* negative half of height above */
+				
+		}
+		@font-face {
+			font-family: 'NFL RedZone';
+			src: url('webfont.eot'); /* IE9 Compat Modes */
+			src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+				url('webfont.woff') format('woff'), /* Modern Browsers */
+				url('assets/font/NFLRedZone.ttf')  format('truetype'), /* Safari, Android, iOS */
+				url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+		}
+	</style>
+
+<link href="assets/css/style.css" rel="stylesheet">
+
+
+
+</head>
+
+
+
+<body bgcolor="black">
+<br><br>
+		<center>
+<table cellspacing="0" border="0">
+	<colgroup width="227"></colgroup>
+	<colgroup span="1" width="153"></colgroup>
+	<colgroup width="227"></colgroup>
+	<tr>
+		<td height="150"><center><a href="../Homepage FFL/index.html"><img src="Logos/FFL-LOGO.png" width"130" height="130"></a></center></td>
+		<td colspan=3 align="center" valign=top ><font face ="LED Dot-Matrix" size=7 color="green"><a1 id="countdown">5:00</a1></font></td>
+		<td><center><a5><a href="../Homepage FFL/index.html" style="color:#ffffff; text-decoration:none;" >www.fingerfootballleague.de</a></a5></center></td>
+	</tr>
+	<tr>
+		<td height="150" align="left" valign=bottom><font color="#000000"><br><img id="team1-img" src="Logos/FFL-LOGO.png" width=300 height=250 hspace=50 vspace=37>
+		</font></td>
+		<td align="center" valign=middle ><font face ="LED Dot-Matrix" size=7 color="yellow"><a2 id="home">0</a2></font></td>
+		<td align="center" valign=middle><font size=7 color="yellow"><a2>:</a2></font></td>
+		<td align="center" valign=middle ><font face ="LED Dot-Matrix" size=7 color="yellow"><a2 id="away">0</a2></font></td>
+		<td align="left" valign=bottom><font color="#000000"><br><img id="team2-img" src="Logos/FFL-LOGO.png" width=300 height=250 hspace=44 vspace=45>
+	</font></td>
+	</tr>
+	<tr>
+		<td height="67" align="center" valign=middle><font face=NFL size=6 color="white">
+			<select id="team1-select">
+				<option>49ERS</option>
+				<option>BEARS</option>
+				<option>BENGALS</option>
+				<option>BILLS</option>
+				<option>BROWNS</option>
+				<option>BRONCOS</option>
+				<option>BUCCANEERS</option>
+				<option>CARDINALS</option>
+				<option>CHARGERS</option>
+				<option>CHIEFS</option>
+				<option>COLTS</option>
+				<option>COWBOYS</option>
+				<option>DOLPHINS</option>
+				<option>EAGLES</option>
+				<option>FALCONS</option>
+				<option>GIANTS</option>
+				<option>JAGUARS</option>
+				<option>JETS</option>
+				<option>LIONS</option>
+				<option>PACKERS</option>
+				<option>PANTHERS</option>
+				<option>PATRIOTS</option>
+				<option>RAIDERS</option>
+				<option>RAMS</option>
+				<option>RAVENS</option>
+				<option>SAINTS</option>
+				<option>SEAHAWKS</option>
+				<option>STEELERS</option>
+				<option>TEXANS</option>
+				<option>TITANS</option>
+				<option>VIKINGS</option>
+				<option>WASHINGTON</option>
+			</select>
+
+		</font></td>
+		<td align="center" valign=bottom><font size=7 color="yellow"></font></td>
+		<td></td>
+		<td></td>
+		<td align="center" valign=middle><font face=NFL size=6 color="white">
+
+			<select id="team2-select">
+				<option>49ERS</option>
+				<option>BEARS</option>
+				<option>BENGALS</option>
+				<option>BILLS</option>
+				<option>BROWNS</option>
+				<option>BRONCOS</option>
+				<option>BUCCANEERS</option>
+				<option>CARDINALS</option>
+				<option>CHARGERS</option>
+				<option>CHIEFS</option>
+				<option>COLTS</option>
+				<option>COWBOYS</option>
+				<option>DOLPHINS</option>
+				<option>EAGLES</option>
+				<option>FALCONS</option>
+				<option>GIANTS</option>
+				<option>JAGUARS</option>
+				<option>JETS</option>
+				<option>LIONS</option>
+				<option>PACKERS</option>
+				<option>PANTHERS</option>
+				<option>PATRIOTS</option>
+				<option>RAIDERS</option>
+				<option>RAMS</option>
+				<option>RAVENS</option>
+				<option>SAINTS</option>
+				<option>SEAHAWKS</option>
+				<option>STEELERS</option>
+				<option>TEXANS</option>
+				<option>TITANS</option>
+				<option>VIKINGS</option>
+				<option>WASHINGTON</option>
+			</select>
+
+		</font></td>
+	</tr>
+	<tr>
+		<td height="157" align="center" valign=middle ><font face ="LED Dot-Matrix" size=7 color="red"><a3 id="down1">1</a3></font></td>
+		<td></td>
+		<td align="center" valign=middle ><font face ="LED Dot-Matrix" size=7 color="red"><a3 id="quarter">1</a3></font></td>
+		<td></td>
+		<td align="center" valign=middle ><font face ="LED Dot-Matrix" size=7 color="red"><a3 id="down2">1</a3></font></td>
+	</tr>
+	<tr>
+		<td height="55" align="center" valign=middle><font face=NFL  size=6 color="white">DOWN</font></td>
+		<td></td>
+		<td align="center" valign=middle><font face=NFL size=6 color="white">QTR</font></td>
+		<td></td>
+		<td align="center" valign=middle><font face=NFL size=6 color="white">DOWN</font></td>
+	</tr>
+</table>
+
+<div id="popup1">
+	<img src="touchdown.gif" width="1000" height="500">
+</div>
+
+<div id="popup2">
+	<img src="fieldgoal.gif" width="1000" height="500">
+</div>
+
+<div id="popup3">
+	<video autoplay preload id="videoId1">
+		<source src="Songs/BuccaneersTouchdown.mp4" type="video/mp4">
+			
+	</video> 
+</div>
+
+<div id="popup4">
+	<video autoplay preload id="videoId2">
+		<source src="Songs/ChiefsTouchdown.mp4" type="video/mp4">
+			
+	</video> 
+</div>
+
+<div id="popup5">
+	<video autoplay preload id="videoId3">
+		<source src="Songs/PatriotsTouchdown.mp4" type="video/mp4">
+			
+	</video> 
+</div>
+
+<script>
+$("#popup1").click(function(){
+	$("#popup1").attr("style", "visibility: hidden");
+});
+
+$("#popup2").click(function(){
+	$("#popup2").attr("style", "visibility: hidden");
+});
+
+$("#popup3").click(function(){
+	$("#popup3").attr( "style", "visibility: hidden");
+	$("#videoId1").get(0).pause();
+});
+
+$("#popup4").click(function(){
+	$("#popup4").attr( "style", "visibility: hidden");
+	$("#videoId2").get(0).pause();
+});
+
+$("#popup5").click(function(){
+	$("#popup5").attr( "style", "visibility: hidden");
+	$("#videoId3").get(0).pause();
+});
+
+$( "#team1-select" )
+  .change(function () {
+	selected_team = $( "#team1-select option:selected" ).text();
+	//alert( "Team " + selected_team + " ausgewählt." );
+	$("#team1-img").attr("src", "Teams/" + selected_team + "-LOGO.png");
+	
+  });
+
+  $( "#team2-select" )
+  .change(function () {
+	selected_team = $( "#team2-select option:selected" ).text();
+	//alert( "Team " + selected_team + " ausgewählt." );
+	$("#team2-img").attr("src", "Teams/" + selected_team + "-LOGO.png");
+	
+  });
+</script>
+
+<script>
+	// Set the date we're counting down to
+
+	var stopped = true;
+	var countdown_over = false;
+	var counter;
+	var x; 
+	
+	// Update the count down every 1 second
+	function myTimer() {
+
+	var countdown = 5 * 60;
+	counter = 0;
+
+	  clearInterval(x);
+	  x = setInterval(function() {
+	
+	  if(stopped == false){
+		  counter = counter + 1;
+	  }
+
+	  // Find the distance between now and the count down date
+	  var distance = countdown - counter;
+	
+	  // Time calculations for days, hours, minutes and seconds
+	  var minutes = Math.floor((distance / 60));
+	  var seconds = Math.floor((distance % 60 ));
+	  if(seconds < 10){
+		  seconds = "0" + seconds;
+	  }
+	
+	  // Display the result in the element with id="demo"
+	  document.getElementById("countdown").innerHTML = minutes + ":" + seconds + "";
+	
+	  // If the count down is finished, write some text
+	  if (distance < 0) {
+		clearInterval(x);
+		stopped = true;
+		countdown_over = true;
+		document.getElementById("countdown").innerHTML = "FULL";
+	  }
+	  }, 1000);
+	}
+	myTimer();
+
+	$(window).keypress(function (e) {
+		if (e.keyCode === 32) {
+			e.preventDefault();
+			if(stopped == true){
+				//counter = -1;
+				stopped = false;
+				if(countdown_over == true){
+					myTimer();
+				}
+			}
+			else{
+				stopped = true;
+			}
+		}
+
+		if (e.keyCode === 13) {
+			e.preventDefault();
+			myTimer();
+			stopped = true;
+			
+		}
+
+		if (e.keyCode === 37) {
+			console.log('hallo');
+			e.preventDefault();
+			element = window.selected;
+			console.log(element);
+			if(element != undefined){
+				currVal = document.getElementById(element).innerHTML;
+				console.log(currVal);
+			}
+			
+		}
+	});
+
+	function changeVal(val){
+		element = window.selected;
+			//console.log(element);
+			if(element != undefined){
+				currVal = document.getElementById(element).innerHTML;
+				newval = parseInt(currVal) + val;
+				document.getElementById(element).innerHTML = newval;
+			}
+	}
+
+	document.addEventListener("keydown", function(event) {
+		if(event.which === 38){
+			changeVal(1);
+		}
+		if(event.which === 40){
+			changeVal(-1);
+		}
+		if(event.which === 84){
+			$("#popup1").attr("style", "visibility: visible");
+		}
+		if(event.which === 70){
+			$("#popup2").attr("style", "visibility: visible");
+		}
+		if(event.which === 49){
+			$("#popup3").attr("style", "visibility: visible");
+			selected_team = $( "#team1-select option:selected" ).text();
+			video_name = "Songs/" + selected_team + "Touchdown.mp4";
+			$("#videoId1 > source").attr("src", video_name);
+			$("#videoId1").get(0).load();
+			$("#videoId1").get(0).play();
+		}
+		if(event.which === 50){
+			$("#popup4").attr("style", "visibility: visible");
+			selected_team = $( "#team2-select option:selected" ).text();
+			video_name = "Songs/" + selected_team + "Touchdown.mp4";
+			$("#videoId2 > source").attr("src", video_name);
+			$("#videoId2").get(0).load();
+			$("#videoId2").get(0).play();
+		}
+		if(event.which === 51){
+			$("#popup5").attr("style", "visibility: visible");
+			$("#videoId3").get(0).load();
+			$("#videoId3").get(0).play();
+		}
+	})
+
+	$("#down1").click(function(){
+		window.selected = 'down1';
+	});
+	$("#down2").click(function(){
+		window.selected = 'down2';
+	});	
+	$("#quarter").click(function(){
+		window.selected = 'quarter';
+	});	
+	$("#home").click(function(){
+		window.selected = 'home';
+	});	
+	$("#away").click(function(){
+		window.selected = 'away';
+	});
+
+	</script>
+
+
+
+
+
+</body>
+
+</html>
